@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.work-zone{
+    width: 800px;
+    height: 500px;
+    border: 2px black solid;
+    display: flex;
+}
+.figures, .canvas{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+.figures{
+    width: 25%;
+    border-right: solid 2px black;
+}
+.canvas{
+    width: 76%;
+}
+.figures-title, .canvas-title{
+    border-bottom: solid black 3px;
+    background-color: rgb(213, 217, 222);
+}
+.figures-title p, .canvas-title p{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.figures-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ellipse{
+    width: 80px; 
+    height: 50px;
+    background-color: blue;
+    border: black solid 1px;
+    border-radius: 50%;
+    margin: 40px 0;
+}
+.rectangle{
+    width: 80px;
+    height: 50px;
+    background-color: green;
+    border: black solid 1px;
+}
+
